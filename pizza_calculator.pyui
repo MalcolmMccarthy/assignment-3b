@@ -1,0 +1,161 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{59, 77}, {233, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "size_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "0ED2C486-A064-447C-8181-B1FED8EF4A68",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{59, 174}, {233, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "toppings_textfield",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "3FC8EBDD-8C04-433D-B40F-84D208328C24",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{59, 37}, {233, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "size_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A4A6C6F2-60CB-4857-88B7-9DBF8F482E72",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "enter size (large = 1, XL = 2)",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{59, 134}, {233, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "toppings_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "BC800F38-FE97-4AEB-96BF-E26B15B6A78D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "enter # of toppings(0-4)",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{59, 230}, {233, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "09C40284-3D05-406D-941C-63AC5DAAF5A4",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{52, 295}, {240, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "sub_total_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "299DB763-DB32-45C0-A8F7-7F328FD48E98",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{52, 352}, {240, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "HST_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1EFB79D9-33A0-448F-92F8-475B428F8EB2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{52, 407}, {240, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "total_cost_label",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "7E1129F6-F9DB-4FE7-9DC1-D0D10090A18B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
